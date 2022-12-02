@@ -1,6 +1,8 @@
 # Learning and Building E2E test automation with Cypress & OKR
 
-**Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality**
+**Define, Code & Apply an E2E strategy with 
+Cypress & Objectives Key Results 
+with PO mindset focus on Quality**
 
 
 **In 2022, I always forget how to push on GitHub**
