@@ -1,0 +1,19 @@
+{
+	"username": "admin",
+	"password": "admin",
+	"welcomeText": "Hola",
+	"logoutText": "Salir",
+	"adminMenu": [
+		"Escritorio",
+		"Entradas",
+		"Medios",
+		"Páginas",
+		"Comentarios",
+		"Apariencia",
+		"Plugins",
+		"Usuarios",
+		"Herramientas",
+		"Ajustes"
+	],
+	"TheValueUsed": "This value comes from sample_es_ES_testdata_wp2.json"
+}

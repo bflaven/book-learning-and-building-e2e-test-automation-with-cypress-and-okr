@@ -1,0 +1,92 @@
+<html>
+   <meta charset="utf-8"/>
+<body>write_a_javascript_functions_001.html</br>
+    <script type="text/javascript">
+
+/**
+ * This file is part of the book package: "Learning and Building E2E test automation with Cypress & OKR. Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality"
+*
+* @more
+* Blog :: https://flaven.fr/
+* Amazon :: https://amzn.to/2WQbRpA
+* Github :: https://github.com/bflaven
+* Youtube :: https://bit.ly/2WPlpAU
+*
+*
+ *
+ * (c) Bruno Flaven <info@flaven.fr>
+ * 
+ * Intended to Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality
+ *
+ * @package Cypress, OKR, WordPress Testing 
+ * @subpackage FRONTOFFICE & BACKOFFICE
+ * @since Cypress: cypress@9.7.0, node: v18.0.0, WordPress: wordpress-6.1.1, npx: 8.6.0
+
+ */
+
+
+// Example_4
+/*
+  * Name :: generateRandomNum
+  * Description :: generate a number according to the length given as parameter
+ */
+
+  function generateRandomNum(length) {
+    const add = 1;
+    let max = 12 - add;   // 12 is the min safe number Math.random() can generate without it starting to pad the end with zeros.
+    if (length > max) {
+      return generateRandomNum(max) + generateRandomNum(length - max);
+    }
+    max = Math.pow(10, length + add);
+    const min = max / 10; // Math.pow(10, n) basically
+    const number = Math.floor(Math.random() * (max - min + 1)) + min;
+    return ('' + number).substring(add);
+  }
+
+/*
+  * Name :: doRandomString
+  * Description :: generate a random string.
+ */
+
+function doRandomString () {
+    const RandomString = ''+(Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15))+'';
+    return RandomString;
+
+}
+
+
+/*
+  * Name :: doDateString
+  * Description :: generate a random date.
+ */
+function doDateString () { 
+  const DateString = ''+(new Date().toString())+'';
+  return DateString;
+}
+
+/*
+  * Name :: doRandomTime
+  * Description :: generate a random time.
+ */
+function doRandomTime() {
+  
+  let hrs = Math.round(Math.random() * 24);
+  let mins = Math.round(Math.random() * 60); 
+  let hFormat = (hrs<10 ? "0" : "");
+  let mFormat = (mins<10 ? "0" : "");
+  let pickUpRandomTime = String(hFormat+hrs+ ":" +mFormat+mins+ "");
+
+  return pickUpRandomTime
+
+}
+
+
+console.log(' -- generateRandomNum(5) :: '+generateRandomNum(5)+' --')
+console.log(' -- doRandomString() :: '+doRandomString()+' --')
+console.log(' -- doDateString() :: '+doDateString()+' --')
+console.log(' -- doRandomTime() :: '+doRandomTime()+' --')
+
+  
+    </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<html>
+   <meta charset="utf-8"/>
+<body>write_a_javascript_functions_001.html</br>
+    <script type="text/javascript">
+
+/**
+ * This file is part of the book package: "Learning and Building E2E test automation with Cypress & OKR. Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality"
+*
+* @more
+* Blog :: https://flaven.fr/
+* Amazon :: https://amzn.to/2WQbRpA
+* Github :: https://github.com/bflaven
+* Youtube :: https://bit.ly/2WPlpAU
+*
+*
+ *
+ * (c) Bruno Flaven <info@flaven.fr>
+ * 
+ * Intended to Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality
+ *
+ * @package Cypress, OKR, WordPress Testing 
+ * @subpackage FRONTOFFICE & BACKOFFICE
+ * @since Cypress: cypress@9.7.0, node: v18.0.0, WordPress: wordpress-6.1.1, npx: 8.6.0
+
+ */
+
+
+// Example_3
+function filePathImage() {
+
+    // returns a random integer from 1 to 18
+    const RandomImageInsertUpload =''+(Math.floor(Math.random() * 18) + 0)+''; 
+    // The array for my sample images inside in the /fixtures/pictures minus the metada image
+    const AnimalImageUpload =['animal_badger.jpg','animal_bear.jpg','animal_bird.jpg','animal_camel.jpg','animal_elephants.jpg','animal_fawn_deer.jpg','animal_fish_blobfish.jpg','animal_hyena.jpg','animal_nature_bird_flying_red.jpg','animal_pangolin.jpg','animal_red_panda.jpg','animal_reptile_chamaeleo.jpg','animal_rhino.jpg','animal_snake.jpg','animal_squirrel.jpg','animal_tapir_malaisie.jpg','animal_tiger.jpg','animal_zebra.jpg'];
+
+    // The variable filepath will be concatened with the random image selected
+    let filepath = 'pictures/'+AnimalImageUpload[RandomImageInsertUpload]+'';
+
+    return filepath;
+
+  }
+
+
+  console.log('Example_3 :: The path is :: '+filePathImage()+'')
+
+
+
+
+
+
+
+
+/*
+    	class Student{
+        
+
+              name; 
+
+
+              getStudentName(){
+                 console.log(this.name);
+              }
+
+       }
+
+      const student1 = new Student();
+      student1.name="Guido";
+
+      const student2 = new Student();
+      student2.name="Yossef";
+      
+      const student3 = new Student();
+      student3.name="Prisca";
+      
+
+      student1.getStudentName();
+      student2.getStudentName();
+      student3.getStudentName();
+*/   
+    </script>
+</body>
+</html>

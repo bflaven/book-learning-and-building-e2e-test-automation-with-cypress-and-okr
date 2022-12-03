@@ -1,0 +1,16 @@
+{  
+  "baseUrl": "http://cypress.mydomain.priv/wordpress/",
+  "pluginsFile": false,
+  "projectId": "e2e-wp",
+  "experimentalStudio": true,
+  "chromeWebSecurity": false,
+  "waitForAnimations": true,
+  "experimentalFetchPolyfill": true,
+  "experimentalInteractiveRunEvents": true,
+  "experimentalSourceRewriting": false,
+  "animationDistanceThreshold": 50,
+  "viewportWidth": 1280,
+  "viewportHeight": 1024,
+  "defaultCommandTimeout": 5000,
+  "slowTestThreshold": 2500
+}

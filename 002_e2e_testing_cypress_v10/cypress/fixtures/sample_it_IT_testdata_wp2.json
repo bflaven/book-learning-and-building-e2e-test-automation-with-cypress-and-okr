@@ -1,0 +1,19 @@
+{
+	"username": "admin",
+	"password": "admin",
+	"welcomeText": "Ciao",
+	"logoutText": "Esci",
+	"adminMenu": [
+		"Bacheca",
+		"Articoli",
+		"Media",
+		"Pagine",
+		"Commenti",
+		"Aspetto",
+		"Plugin",
+		"Utenti",
+		"Strumenti",
+		"Impostazioni"
+	],
+	"TheValueUsed": "This value comes from sample_it_IT_testdata_wp2.json"
+}

@@ -1,0 +1,159 @@
+<html>
+   <meta charset="utf-8"/>
+<body>write_a_javascript_functions_001.html</br>
+    <script type="text/javascript">
+
+/**
+ * This file is part of the book package: "Learning and Building E2E test automation with Cypress & OKR. Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality"
+*
+* @more
+* Blog :: https://flaven.fr/
+* Amazon :: https://amzn.to/2WQbRpA
+* Github :: https://github.com/bflaven
+* Youtube :: https://bit.ly/2WPlpAU
+*
+*
+ *
+ * (c) Bruno Flaven <info@flaven.fr>
+ * 
+ * Intended to Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality
+ *
+ * @package Cypress, OKR, WordPress Testing 
+ * @subpackage FRONTOFFICE & BACKOFFICE
+ * @since Cypress: cypress@9.7.0, node: v18.0.0, WordPress: wordpress-6.1.1, npx: 8.6.0
+
+ */
+
+/*
+pt_PT
+it_IT
+en_EN
+fr_FR
+es_ES
+ru_RU
+zh_CN
+ */
+
+class UtilityWp {
+
+
+         language;
+         navLabel;
+         navCssSelector;
+
+            constructor(language, navLabel, navCssSelector){
+                this.language = language;
+                this.navLabel = navLabel;
+                this.navCssSelector = navCssSelector;
+            }
+
+    
+        getSelectionVerifier() {
+            // let lang = Cypress.env('LANG'); 
+            
+
+            if (lang == 'es_ES')
+                return 'es_ES';
+            else if (lang == 'it_IT')
+                return 'it_IT';
+            else if (lang == 'fr_FR')
+                return 'fr_FR';
+            else if (lang == 'es_ES')
+                return 'es_ES';
+            else if (lang == 'ru_RU')
+                return 'ru_RU';
+            else if (lang == 'zh_CN')
+                return 'zh_CN';
+            // Default case
+            else (lang == 'en_EN')
+                return 'en_EN';
+        }// EOF
+
+        getMainNavMenuLinkEntries () {
+                // let brandLang = Cypress.env('BRAND_LANG');
+                
+                switch (lang) {
+
+                  case 'es_ES':
+
+                  var WpMainNavLabel = ["es_ES_Dashboard","es_ES_Posts", "es_ES_Media"];
+                  var WpMainNavCssSelector = ["#menu-dashboard > a > div.wp-menu-name","#menu-posts > a > div.wp-menu-name", "#menu-pages > a > div.wp-menu-name"];
+
+                  return {WpMainNavLabel, WpMainNavCssSelector};
+
+
+                  case 'it_IT':
+
+                  var WpMainNavLabel = ["it_IT_Dashboard","it_IT_Posts", "it_IT_Media"];
+                  var WpMainNavCssSelector = ["#menu-dashboard > a > div.wp-menu-name","#menu-posts > a > div.wp-menu-name", "#menu-pages > a > div.wp-menu-name"];
+
+                  return {WpMainNavLabel, WpMainNavCssSelector};
+
+
+                  // Default en_EN
+                  default: 
+
+                  var WpMainNavLabel = ["Dashboard","Posts", "Media"];
+                  var WpMainNavCssSelector = ["#menu-dashboard > a > div.wp-menu-name","#menu-posts > a > div.wp-menu-name", "#menu-pages > a > div.wp-menu-name"];
+
+                  return {WpMainNavLabel, WpMainNavCssSelector};
+
+                  }//EOS
+          }// EOF
+            
+
+
+  }//EOC     
+
+
+
+try {
+          // var lang = 'it_IT';
+          // var lang ='es_ES';
+          var lang ='';
+          
+
+// Output_1
+/*
+const verifier = new UtilityBach().getSelectionVerifier();
+const entrance = new UtilityBach().getBachEntranceLinkXpath();
+const number = new UtilityBach().getMainNavMenuLinkEntries();
+console.log('verifier :: '+verifier+'');
+console.log('entrance :: '+entrance+'');
+console.log('number.mainNavMenuLinkEntriesAdmin :: '+number.mainNavMenuLinkEntriesAdmin+'');
+console.log('number.mainNavMenuLinkEntriesJournalist :: '+number.mainNavMenuLinkEntriesJournalist+'');
+*/
+// Output_2
+
+const verifier = new UtilityWp().getSelectionVerifier();
+const navigation = new UtilityWp().getMainNavMenuLinkEntries();
+
+
+console.log('verifier :: '+verifier+'');
+
+// WpMainNavLabel
+console.log('navigation.WpMainNavLabel :: '+navigation.WpMainNavLabel+'');
+console.log('navigation.WpMainNavLabel.length :: '+navigation.WpMainNavLabel.length+'');
+console.log('navigation.WpMainNavLabel[1] :: '+navigation.WpMainNavLabel[1]+'');
+
+
+// WpMainNavCssSelector
+console.log('navigation.WpMainNavCssSelector :: '+navigation.WpMainNavCssSelector+'');
+console.log('navigation.WpMainNavCssSelector.length :: '+navigation.WpMainNavCssSelector.length+'');
+console.log('navigation.WpMainNavCssSelector[1] :: '+navigation.WpMainNavCssSelector[1]+'');
+    
+
+
+          
+    } catch(err) {
+      console.log('lang does not exist!');
+      console.log('err.name :: '+err.name+'');
+      console.log('err.message :: '+err.message+'');
+      console.log('err.stack :: '+err.stack+'');
+
+    }
+
+  
+    </script>
+</body>
+</html>

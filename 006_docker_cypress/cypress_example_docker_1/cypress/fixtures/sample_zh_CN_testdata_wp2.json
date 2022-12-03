@@ -1,0 +1,20 @@
+{
+	"username": "admin",
+	"password": "admin",
+	"welcomeText": "您好",
+	"logoutText": "注销",
+	"adminMenu": [
+		"仪表盘",
+		"文章",
+		"媒体",
+		"页面",
+		"评论",
+		"外观",
+		"插件",
+		"用户",
+		"工具",
+		"设置"
+
+	],
+	"TheValueUsed": "This value comes from sample_zh_CN_testdata_wp2.json"
+}

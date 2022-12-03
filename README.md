@@ -5,7 +5,10 @@
 
 
 
+
 ```bash
+
+
 001_e2e_testing_cypress_v9
 002_e2e_testing_cypress_v10
 003_e2e_testing_cypress_typescript_v9
@@ -68,15 +71,15 @@ git push origin main
 
 ```
 
-
-<!-- 
+```
 
 Title :: Learning and Building E2E test automation with Cypress & OKR
 Description :: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality
 Keywords :: E2E, strategy, management, Cypress, OKR, Objectives Key Results, agile, PO, Scrum, testing
 Dedication :: To Prisca Jore 
 
--->
+```
+
 
 
 

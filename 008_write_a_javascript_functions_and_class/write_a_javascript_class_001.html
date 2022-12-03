@@ -1,0 +1,70 @@
+<html>
+   <meta charset="utf-8"/>
+<body>write_a_javascript_functions_001.html</br>
+    <script type="text/javascript">
+/**
+ * This file is part of the book package: "Learning and Building E2E test automation with Cypress & OKR. Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality"
+*
+* @more
+* Blog :: https://flaven.fr/
+* Amazon :: https://amzn.to/2WQbRpA
+* Github :: https://github.com/bflaven
+* Youtube :: https://bit.ly/2WPlpAU
+*
+*
+ *
+ * (c) Bruno Flaven <info@flaven.fr>
+ * 
+ * Intended to Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality
+ *
+ * @package Cypress, OKR, WordPress Testing 
+ * @subpackage FRONTOFFICE & BACKOFFICE
+ * @since Cypress: cypress@9.7.0, node: v18.0.0, WordPress: wordpress-6.1.1, npx: 8.6.0
+
+ */
+
+
+class UtilityWp {
+    
+        getSelectionVerifier() {
+            // let lang = Cypress.env('LANG'); 
+            
+/*
+pt_PT
+it_IT
+en_EN
+fr_FR
+es_ES
+ru_RU
+zh_CN
+ */
+            if (lang == 'es_ES')
+                return 'es_ES';
+            else if (lang == 'it_IT')
+                return 'it_IT';
+            else if (lang == 'fr_FR')
+                return 'fr_FR';
+            else if (lang == 'es_ES')
+                return 'es_ES';
+            else if (lang == 'ru_RU')
+                return 'ru_RU';
+            else if (lang == 'zh_CN')
+                return 'zh_CN';
+            // Default case
+            else (lang == 'en_EN')
+                return 'en_EN';
+        }// EOF
+  }//EOC     
+
+
+
+// var lang ='ru_RU'; 
+var lang ='zh_CN'; 
+const wpSelectionVerified = new UtilityWp().getSelectionVerifier();
+console.log('wpSelectionVerified :: '+wpSelectionVerified+'')
+
+
+  
+    </script>
+</body>
+</html>

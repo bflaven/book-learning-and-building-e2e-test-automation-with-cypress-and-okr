@@ -1,0 +1,19 @@
+{
+	"username": "admin",
+	"password": "admin",
+	"welcomeText": "Olá",
+	"logoutText": "Terminar sessão",
+	"adminMenu": [
+		"Painel",
+		"Artigos",
+		"Multimédia",
+		"Páginas",
+		"Comentários",
+		"Apresentação",
+		"Plugins",
+		"Utilizadores",
+		"Ferramentas",
+		"Opções"
+	],
+	"TheValueUsed": "This value comes from sample_pt_PT_testdata_wp2.json"
+}

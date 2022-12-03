@@ -1,0 +1,45 @@
+{
+  "baseUrl": "http://cypress.mydomain.priv/wordpress/",
+  "pluginsFile": false,
+  "projectId": "e2e-wp",
+  "experimentalStudio": true,
+  "chromeWebSecurity": false,
+  "waitForAnimations": false,
+  "experimentalFetchPolyfill": true,
+  "experimentalInteractiveRunEvents": true,
+  "experimentalSourceRewriting": true,
+  "animationDistanceThreshold": 50,
+  "viewportWidth": 1280,
+  "viewportHeight": 1024,
+  "defaultCommandTimeout": 5000,
+  "slowTestThreshold": 2500,
+  "env": {
+            "WP_FRONT":{
+                  "FULL_DOMAIN": "http://cypress.mydomain.priv/wordpress/",
+                  "SITE_TITLE": "yalla_wp",
+                  "TAGLINE": "Just another WordPress site"
+            },
+            "WP_BACK":{
+                        "LOGIN_USERNAME": "admin",
+                        "LOGIN_PASSWORD": "admin",
+                        "DEFAULT_LANG": "en_EN",
+                        "FULL_DOMAIN": "http://cypress.mydomain.priv/wordpress/wp-admin/",
+                        "IMAGES_DIRECTORY_STATUS": "empty",
+                        "LOSTPASSWORD_URL": "https://cypress.mydomain.priv/wordpress/wp-login.php?action=lostpassword"
+            },
+            "LOCALHOST":{
+                        "MAIN_DOMAIN": "cypress.mydomain.priv",
+                        "WP_PROTOCOL": "http://",
+                        "WP_SUBDIRECTORY": "/wordpress/"
+            },
+
+            "OTHER":{
+                        "CYPRESS_PROJECT_NAME": "e2e-wp",
+                        "CYPRESS_PROJECT_NAME_DESCRIPTION": "This is the WP Local website for Cypress Book",
+                        "MY_BOOLEAN":true,
+                        "MY_INT": 9,
+                        "MY_STRING":"my_env_var_capital",
+                        "YourVarNameCypressJson":"my_env_var_camelCase"
+            }
+      }
+}
