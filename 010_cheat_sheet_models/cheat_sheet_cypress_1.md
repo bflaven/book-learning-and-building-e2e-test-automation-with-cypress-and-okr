@@ -351,122 +351,125 @@ cy.intercept('GET', '/config').as('configCall');
 
 ## CSS-Selectors
 
-Reference: [Selector best practices](https://docs.cypress.io/guides/references/best-practices#How-It-Works)
 
-Select an element:
+- Select an element:
 ```js
 cy.get('[data-cy=submit]')
 ```
 
-Select an element within another element:
+- Select an element within another element:
 ```js
 cy.get('mat-card').find('ion-icon[name=checkmark-circle]')
 ```
 
-Select elements in a shadow DOM:
+- Select elements in a shadow DOM:
 ```js
 cy.get('pwa-action-sheet').shadow().find('.action-sheet-button:eq(0)')
 ```
 
-Select the first in a set of elements:
+- Select the first in a set of elements:
 ```js
 cy.get('app-status-indicator').first()
 cy.get('app-status-indicator:eq(0)')
 ```
 
-Select a specific index in a set of elements:
+- Select a specific index in a set of elements:
 ```js
 cy.get('app-status-indicator:eq(2)')
 ```
 
-Select an element within a specific DOM structure:
+- Select an element within a specific DOM structure:
 ```js
 cy.get('#main-list mat-tree-node:last-child button.context-menu-btn')
 ```
 
-Select an element containing specific text:
+- Select an element containing specific text:
 ```js
 cy.get('button.mat-menu-item:contains("Logout")')
 ```
 
+Reference: [Selector best practices](https://docs.cypress.io/guides/references/best-practices#How-It-Works)
+
+
 ## Interactions
 
-Click an element:
+- Click an element:
 ```js
 cy.get('[data-cy=submit]').click()
 ```
 
-Click a hidden element:
+- Click a hidden element:
 ```js
 cy.get('[data-cy=submit]').click({ force: true })
 ```
 
-Click multiple elements:
+- Click multiple elements:
 ```js
 cy.get('.close-button').click({ multiple: true })
 ```
 
-Clear, type and blur a field
+- Clear, type and blur a field
 ```js
 cy.get('input[name=email]').clear().type('foo').blur()
 ```
 
-Type in a field with options, then press enter
+- Type in a field with options, then press enter
 ```js
 cy.get('app-search-ahead-chips').find('input').type('foo{enter}', { timeout: 2000, delay: 40 });
 ```
 
 ## Assertions
 
-Reference: [Cypress supported assertions](https://docs.cypress.io/guides/references/assertions)
 
-Assert an element exists:
+- Assert an element exists:
 ```js
 cy.get('[data-cy=submitted]').should('exist');
 ```
 
-Assert an element does not exist:
+- Assert an element does not exist:
 ```js
 cy.get('[data-cy=submitted]').should('not.exist');
 ```
 
-Assert a certain number of elements exist:
+- Assert a certain number of elements exist:
 ```js
 cy.get('app-store-item').its('length').should('be.gte', 3); // greater than or equal
 cy.get('app-store-item').its('length').should('be.gt', 0); // greater than
 cy.get('app-store-item').its('length').should('equal', 3);
 ```
 
-Assert an element has a class:
+- Assert an element has a class:
 ```js
 cy.get('app-store-item').should('have.class', 'error');
 ```
 
-Assert an element has a specific CSS style:
+- Assert an element has a specific CSS style:
 ```js
 cy.get('mat-drawer app-menu-item').should('have.css', 'visibility', 'visible');
 ```
 
-Assert a url matches a regex:
+- Assert a url matches a regex:
 ```js
 cy.url().should('match', /orders\/[\d]{4}$/);
 ```
 
-Assert an element's text matches a regex:
+- Assert an element's text matches a regex:
 ```js
 cy.get('p.page-number').should((elem) => {
   expect(elem.text()).to.match(/1 of 2/); 
 });
 ```
 
-Assert an input has a specific value:
+- Assert an input has a specific value:
 ```js
 cy.get('@eInput').should('have.value', startVal);
 ```
 
+Reference: [Cypress supported assertions](https://docs.cypress.io/guides/references/assertions)
+
 ## Commands
 
-Stub a login call with a valid JWT token. This token won't authenticate against your server, but it will be real enough for a UI:
+- Stub a login call with a valid JWT token. This token won't authenticate against your server, but it will be real enough for a UI:
 ```js
 import * as jwt from 'jsonwebtoken';
 
@@ -499,7 +502,7 @@ export function mockLogin() {
 Cypress.Commands.add('mockLogin', mockLogin);
 ```
 
-Upload a file:
+- Upload a file:
 ```js
 import 'cypress-file-upload';
 
@@ -515,7 +518,7 @@ export function uploadImage(card) {
 Cypress.Commands.add('uploadImage', uploadImage);
 ```
 
-Declare namespace to avoid typescript errors:
+- Declare namespace to avoid typescript errors:
 ```ts
 declare global {
   namespace Cypress {
