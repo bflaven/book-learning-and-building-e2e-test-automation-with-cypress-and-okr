@@ -32,19 +32,19 @@ Dedication :: To Prisca Jore
 
 
 - **Part_I_Build_a_testing_strategy_with_OKR**
-	+ **A_Build_a_testing_strategy_with_OKR**
-    Think strategic
-    1. The importance of Testing and Quality Assurance Strategy
-    2. A quick definition of OKRs
-    3. OKRs Matrix
-    3.1.  OKRs Matrix: [objective]
-    HANDS_UP_2: What is SMART?
-    3.2. OKRs Matrix: [these key results]
+	- **A_Build_a_testing_strategy_with_OKR**
+    - Think strategic
+    - 1. The importance of Testing and Quality Assurance Strategy
+    - 2. A quick definition of OKRs
+    - 3. OKRs Matrix
+    - 3.1.  OKRs Matrix: [objective]
+    - HANDS_UP_2: What is SMART?
+    - 3.2. OKRs Matrix: [these key results]
 	+ **B_WHAT_ELSE_2_KNOW_on_OKR?**
-    4. OKRs examples for Q/A and to define a testing strategy
-    HANDS_UP_4: ANDY GROVE LEGACY
-    HANDS_UP_5: A little historical reminder
-    HANDS_UP_6: Committed vs. Aspirational OKRs
+    - 4. OKRs examples for Q/A and to define a testing strategy
+    - HANDS_UP_4: ANDY GROVE LEGACY
+    - HANDS_UP_5: A little historical reminder
+    - HANDS_UP_6: Committed vs. Aspirational OKRs
 	+ **C_Last_advices_for_OKRs**
 	+ **D_PERSONAL_DIGRESSION_on_OKR**
     HANDS_UP_7: KPI, KR, CSF... Management components
@@ -116,7 +116,7 @@ Dedication :: To Prisca Jore
     2. Using docker :: 2 cases
 
 - **Part_VI_Conclusion**
-- 
+
 - **Part_VII_Appendix: Appendix A. Installing new packages to extend Cypress capabilities**
 
 - **Part_VIII_Resources**
