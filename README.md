@@ -34,7 +34,7 @@ Dedication :: To Prisca Jore
 <li>F_Who_is_this_book_for?</li>
 
 
-<li>Part_I_Build_a_testing_strategy_with_OKR</li>
+<li><b>Part_I_Build_a_testing_strategy_with_OKR</b></li>
 	<ul type="circle">
 	<li>A_Build_a_testing_strategy_with_OKR</li>
 	    Think strategic<br>
@@ -53,9 +53,9 @@ Dedication :: To Prisca Jore
 	<li>D_PERSONAL_DIGRESSION_on_OKR</li>
 	    HANDS_UP_7: KPI, KR, CSF... Management components<br>
 	</ul>
-<li>Part_II_requirements_for_CYPRESS</li>
+<li><b>Part_II_requirements_for_CYPRESS</b></li>
 
-<li>Part_III_Install Cypress 9 e2e_testing_cypress_v9 (install_1)</li>
+<li><b>Part_III_Install Cypress 9 e2e_testing_cypress_v9 (install_1)</b></li>
 	    HANDS_UP_8: Where does the tests live?
 	    HANDS_UP_9: What kind of names can I give to my test files?
 	    1. Create your first test (001_wp_front_home_simple.spec.js)
@@ -101,7 +101,7 @@ Dedication :: To Prisca Jore
 	    25. An extra test, multiple login for multiple role (020_wp_mutiple_login_role.spec.js)
 	    26. Starting with TypeScript in Cypress
 
-<li>Part_IV_Installing and migrating to Cypress 10 (e2e_testing_cypress_v10)</li>
+<li><b>Part_IV_Installing and migrating to Cypress 10 (e2e_testing_cypress_v10)</b></li>
 	    1. Install the Cypress last version
 	    2. Configure Cypress 10
 	    3. Quick insight on the new directory tree and config file for Cypress 10
@@ -114,15 +114,15 @@ Dedication :: To Prisca Jore
 	    9. Add npm command in the file package.json
 	    10. Few extra things:  define browser, define retries when test failed...
 
-<li>Part_V_Cypress Virtualization with Docker</li>
+<li><b>Part_V_Cypress Virtualization with Docker</b></li> 
 	    1. What is Docker?
 	    HAND-HANDS_UP_27: to add the localhost inside the cypress
 	    2. Using docker :: 2 cases
-<li>Part_VI_Conclusion</li>
-<li>Part_VII_Appendix: Appendix A. Installing new packages to extend Cypress capabilities</li>
-<li>Part_VIII_Resources</li>
-<li>Part_IX_Lexicon</li>
-<li>Part_X_Acknowledgments</li>
+<li><b>Part_VI_Conclusion</b></li>
+<li><b>Part_VII_Appendix: Appendix A. Installing new packages to extend Cypress capabilities</b></li>
+<li><b>Part_VIII_Resources</b></li>
+<li><b>Part_IX_Lexicon</b></li>
+<li><b>Part_X_Acknowledgments</b></li>
 </ul>
 
 
