@@ -26,8 +26,8 @@ Dedication :: To Prisca Jore
     Foreword
 <li>B_Why_WordPress?</li>
 	<ul type="circle">
-    <li>Choosing WP</li>
-	<li>HANDS_UP_1: What is my testing environment (WP, plugins, theme, local address, languages...)?</li>
+	    <li>Choosing WP</li>
+		<li>HANDS_UP_1: What is my testing environment (WP, plugins, theme, local address, languages...)?</li>
 	</ul>
 <li>C_Guidelines_and_Conventions_used_in_this_book?</li>
 <li>D_What_Can_You_Expect_to_Learn?</li>
@@ -38,22 +38,31 @@ Dedication :: To Prisca Jore
 <li><b>Part_I_Build_a_testing_strategy_with_OKR</b></li>
 	<ul type="square">
 	<li><b>A_Build_a_testing_strategy_with_OKR</b></li>
-	    Think strategic<br>
-	    1. The importance of Testing and Quality Assurance Strategy<br>
-	    2. A quick definition of OKRs<br>
-	    3. OKRs Matrix<br>
-	    	3.1.  OKRs Matrix: [objective]<br>
-	    	HANDS_UP_2: What is SMART?<br>
-	    	3.2. OKRs Matrix: [these key results]<br>
-	<li><b>B_WHAT_ELSE_2_KNOW_on_OKR?</b></li>
-	    4. OKRs examples for Q/A and to define a testing strategy<br>
-	    HANDS_UP_4: ANDY GROVE LEGACY<br>
-	    HANDS_UP_5: A little historical reminder<br>
-	    HANDS_UP_6: Committed vs. Aspirational OKRs<br>
-	<li><b>C_Last_advices_for_OKRs</b></li>
-	<li><b>D_PERSONAL_DIGRESSION_on_OKR</b></li>
-	    HANDS_UP_7: KPI, KR, CSF... Management components<br>
-	</ul>
+		<ul type="circle">
+		    <li>Think strategic</li>
+		    <li>1. The importance of Testing and Quality Assurance Strategy</li>
+		    <li>2. A quick definition of OKRs</li>
+		    <li>3. OKRs Matrix</li>
+		    	<ul type="circle">
+		    	<li>3.1.  OKRs Matrix: [objective]</li>
+		    	<li>HANDS_UP_2: What is SMART?</li>
+		    	<li>3.2. OKRs Matrix: [these key results]</li>
+		    	</ul>
+		<li><b>B_WHAT_ELSE_2_KNOW_on_OKR?</b></li>
+			<ul type="circle">
+		    <li>4. OKRs examples for Q/A and to define a testing strategy</li>
+		    <li>HANDS_UP_4: ANDY GROVE LEGACY</li>
+		    <li>HANDS_UP_5: A little historical reminder</li>
+		    <li>HANDS_UP_6: Committed vs. Aspirational OKRs</li>
+			</ul>
+		<li><b>C_Last_advices_for_OKRs</b></li>
+		<li><b>D_PERSONAL_DIGRESSION_on_OKR</b></li>
+			<ul type="circle">
+		    <li>HANDS_UP_7: KPI, KR, CSF... Management components</li>
+			</ul>
+		</ul>
+
+		
 <!-- Part_II -->
 <li><b>Part_II_requirements_for_CYPRESS</b></li>
 
