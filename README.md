@@ -178,9 +178,6 @@ Dedication :: To Prisca Jore
 ```bash
 # GIT 2022
 
-
-
-
 # get the remote directory if needed
 git clone https://github.com/bflaven/book-learning-and-building-e2e-test-automation-with-cypress-and-okr.git
 
