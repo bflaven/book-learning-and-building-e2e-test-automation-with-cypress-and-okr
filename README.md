@@ -20,7 +20,7 @@ Dedication :: To Prisca Jore
 
 ## 2. Table of Contents
 
-<ul>
+<ul type="square">
 <li>A_FOREWORD</li>
     Foreword
 <li>B_Why_WordPress?</li>
