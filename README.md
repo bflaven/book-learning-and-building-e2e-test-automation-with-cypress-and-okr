@@ -69,69 +69,74 @@ Dedication :: To Prisca Jore
 
 <!-- Part_III -->
 <li><b>Part_III_Install Cypress 9 e2e_testing_cypress_v9 (install_1)</b></li>
-	    HANDS_UP_8: Where does the tests live?<br>
-	    HANDS_UP_9: What kind of names can I give to my test files?<br>
-	    1. Create your first test (001_wp_front_home_simple.spec.js)<br>
-	    HANDS_UP_10: Where do my website made with wp live locally?<br>
-	    HANDS_UP_11: Where do I tell Cypress to test my local website made with wp?<br>
-	    HANDS_UP_12: Customize Visual Studio Code (VCS) if it your favorite editor <br>
-	    2. Complete your first test (001_wp_front_home_simple.spec.js)<br>
-	    3. Add comment and log to your first test (002_wp_front_home_simple.spec.js)<br>
-	    4. Extend the Cypress configuration file with some general options (cypress.json)<br>
-	    5. Introduce the environment notion in the Cypress configuration (cypress.json)<br>
-	    HANDS_UP_13: Naming your variables<br>
-	    HANDS_UP_14: Multiple objects in your json config file<br>
-	    HANDS_UP_15: Remove the example testing files given by Cypress<br>
-	    6. The famous logging testing (006_wp_admin_login_simple.spec.js)<br>
-	    HANDS_UP_16: Find the css selector of the xpath selector on a webpage<br>
-	    7. Few guidelines for optimization and maintenance (007_wp_admin_login_advanced.spec.js)<br>
-	    8. More guidelines for optimization and maintenance<br>
-	    HANDS_UP_17: Give an filename with for each config file --config-file<br>
-	    9. Reorganize your files or using node.js ability with modules<br>
-	    HANDS_UP_18: Briefly what are modules in Node.js? What can you do with these modules?<br>
-	    HANDS_UP_19: Briefly what are JavaScript functions in JavaScript?<br>
-	    10. Reorganize your files or using functions in support/commands.js :  use functions.<br>
-	    11. Extending backend testing: create post, create page...etc<br>
-	    HANDS_UP_20: Test description, tagging, index...etc<br>
-	    HANDS_UP_21: Fixing the upload issue in XAMPP<br>
-	    12. Order your custom commands by files grouped by typology e.g content type creation, UX, tagging, navigation....etc<br>
-	    HANDS_UP_22:  What are Classes?<br>
-	    13. Introducing a JavaScript Class in Cypress to handle more use cases with less complexity<br>
-	    HANDS_UP_23: How to perform conditional statements in JavaScript?<br>
-	    HANDS_UP_24: How to build a scraper with BeautifulSoup and Selenium to help to parse my backend or frontend ?<br>
-	    14. Extra stuff_i: Load fixtures with the help of MySQL in WP<br>
-	    15. Extra stuff_ii: Using gherkin feature in Cypress with the help of cypress-cucumber<br>
-	    16.  Generate HTML reports allure and mochawesome<br>
-	    17. Add some commands to package.json<br>
-	    18. Add screen captures to some of your tests<br>
-	    19. Managing loops in javascript<br>
-	    20. Filter on tags<br>
-	    21. API testing<br>
-	    22. Using Cypress Studio (required Cypress below v10)<br>
-	    23. Implement Page Objects in Cypress<br>
-	    HANDS_UP_25: Need an extra package "cypress-real-events"<br>
-	    24. Some other advanced usage with Fixtures (sample_testdata_usernames.json, 021_wp_create_user_with_fixtures.spec.js)<br>
-	    25. An extra test, multiple login for multiple role (020_wp_mutiple_login_role.spec.js)<br>
-	    26. Starting with TypeScript in Cypress<br>
-
+		<ul type="none">
+	    <li>HANDS_UP_8: Where does the tests live?</li>
+	    <li>HANDS_UP_9: What kind of names can I give to my test files?</li>
+	    <li>1. Create your first test (001_wp_front_home_simple.spec.js)</li>
+	    <li>HANDS_UP_10: Where do my website made with wp live locally?</li>
+	    <li>HANDS_UP_11: Where do I tell Cypress to test my local website made with wp?</li>
+	    <li>HANDS_UP_12: Customize Visual Studio Code (VCS) if it your favorite editor </li>
+	    <li>2. Complete your first test (001_wp_front_home_simple.spec.js)</li>
+	    <li>3. Add comment and log to your first test (002_wp_front_home_simple.spec.js)</li>
+	    <li>4. Extend the Cypress configuration file with some general options (cypress.json)</li>
+	    <li>5. Introduce the environment notion in the Cypress configuration (cypress.json)</li>
+	    <li>HANDS_UP_13: Naming your variables</li>
+	    <li>HANDS_UP_14: Multiple objects in your json config file</li>
+	    <li>HANDS_UP_15: Remove the example testing files given by Cypress</li>
+	    <li>6. The famous logging testing (006_wp_admin_login_simple.spec.js)</li>
+	    <li>HANDS_UP_16: Find the css selector of the xpath selector on a webpage</li>
+	    <li>7. Few guidelines for optimization and maintenance (007_wp_admin_login_advanced.spec.js)</li>
+	    <li>8. More guidelines for optimization and maintenance</li>
+	    HANDS_UP_17: Give an filename with for each config file --config-file</li>
+	    <li>9. Reorganize your files or using node.js ability with modules</li>
+	    <li>HANDS_UP_18: Briefly what are modules in Node.js? What can you do with these modules?</li>
+	    <li>HANDS_UP_19: Briefly what are JavaScript functions in JavaScript?</li>
+	    <li>10. Reorganize your files or using functions in support/commands.js :  use functions.</li>
+	    <li>11. Extending backend testing: create post, create page...etc</li>
+	    <li>HANDS_UP_20: Test description, tagging, index...etc</li>
+	    <li>HANDS_UP_21: Fixing the upload issue in XAMPP</li>
+	    <li>12. Order your custom commands by files grouped by typology e.g content type creation, UX, tagging, navigation....etc</li>
+	    <li>HANDS_UP_22:  What are Classes?</li>
+	    <li>13. Introducing a JavaScript Class in Cypress to handle more use cases with less complexity</li>
+	    <li>HANDS_UP_23: How to perform conditional statements in JavaScript?</li>
+	    <li>HANDS_UP_24: How to build a scraper with BeautifulSoup and Selenium to help to parse my backend or frontend ?</li>
+	    <li>14. Extra stuff_i: Load fixtures with the help of MySQL in WP</li>
+	    <li>15. Extra stuff_ii: Using gherkin feature in Cypress with the help of cypress-cucumber</li>
+	    <li>16.  Generate HTML reports allure and mochawesome</li>
+	    <li>17. Add some commands to package.json</li>
+	    <li>18. Add screen captures to some of your tests</li>
+	    <li>19. Managing loops in javascript</li>
+	    <li>20. Filter on tags</li>
+	    <li>21. API testing</li>
+	    <li>22. Using Cypress Studio (required Cypress below v10)</li>
+	    <li>23. Implement Page Objects in Cypress</li>
+	    <li>HANDS_UP_25: Need an extra package "cypress-real-events"</li>
+	    <li>24. Some other advanced usage with Fixtures (sample_testdata_usernames.json, 021_wp_create_user_with_fixtures.spec.js)</li>
+	    <li>25. An extra test, multiple login for multiple role (020_wp_mutiple_login_role.spec.js)</li>
+	    <li>26. Starting with TypeScript in Cypress</li>
+		</ul>
 <!-- Part_IV -->
 <li><b>Part_IV_Installing and migrating to Cypress 10 (e2e_testing_cypress_v10)</b></li>
-	    1. Install the Cypress last version<br>
-	    2. Configure Cypress 10<br>
-	    3. Quick insight on the new directory tree and config file for Cypress 10<br>
-	    4. Transfer your testing stuff from the previous E2E suite<br>
-	    5. Keep on transfering your stuff from the previous suite!!!<br>
-	    HANDS_UP_26: Use programming to manipulate multiple files<br>
-	    6. Finish the cypress.config.js configuration<br>
-	    7. Finish the Cypress 10's implementation<br>
-	    8. Change the specific config file<br>
-	    9. Add npm command in the file package.json<br>
-	    10. Few extra things:  define browser, define retries when test failed...<br>
+		<ul type="none">
+	    <li>1. Install the Cypress last version</li>
+	    <li>2. Configure Cypress 10</li>
+	    <li>3. Quick insight on the new directory tree and config file for Cypress 10</li>
+	    <li>4. Transfer your testing stuff from the previous E2E suite</li>
+	    <li>5. Keep on transfering your stuff from the previous suite!!!</li>
+	    <li>HANDS_UP_26: Use programming to manipulate multiple files</li>
+	    <li>6. Finish the cypress.config.js configuration</li>
+	    <li>7. Finish the Cypress 10's implementation</li>
+	    <li>8. Change the specific config file</li>
+	    <li>9. Add npm command in the file package.json</li>
+	    <li>10. Few extra things:  define browser, define retries when test failed...</li>
+		</ul>
 <!-- Part_V -->
-<li><b>Part_V_Cypress Virtualization with Docker</b></li> 
-	    1. What is Docker?<br>
-	    HAND-HANDS_UP_27: to add the localhost inside the cypress<br>
-	    2. Using docker :: 2 cases<br>
+<li><b>Part_V_Cypress Virtualization with Docker</b></li>
+		<ul type="none">
+	    1. What is Docker?</li>
+	    HAND-HANDS_UP_27: to add the localhost inside the cypress</li>
+	    2. Using docker :: 2 cases</li>
+		</ul>
 <!-- Part_VI -->
 <li><b>Part_VI_Conclusion</b></li>
 <!-- Part_VII -->
