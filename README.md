@@ -25,8 +25,10 @@ Dedication :: To Prisca Jore
 <li>A_FOREWORD</li>
     Foreword
 <li>B_Why_WordPress?</li>
-    Choosing WP
-	HANDS_UP_1: What is my testing environment (WP, plugins, theme, local address, languages...)?
+	<ul type="disc">
+    <li>Choosing WP</li>
+	<li>HANDS_UP_1: What is my testing environment (WP, plugins, theme, local address, languages...)?</li>
+	</ul>
 <li>C_Guidelines_and_Conventions_used_in_this_book?</li>
 <li>D_What_Can_You_Expect_to_Learn?</li>
 <li>E_Why_Cypress?</li>
