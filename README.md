@@ -43,13 +43,13 @@ Dedication :: To Prisca Jore
 		    <li>1. The importance of Testing and Quality Assurance Strategy</li>
 		    <li>2. A quick definition of OKRs</li>
 		    <li>3. OKRs Matrix</li>
-		    	<ul type="disc">
+		    	<ul type="none">
 		    	<li>3.1.  OKRs Matrix: [objective]</li>
 		    	<li>HANDS_UP_2: What is SMART?</li>
 		    	<li>3.2. OKRs Matrix: [these key results]</li>
 		    	</ul>
 		<li><b>B_WHAT_ELSE_2_KNOW_on_OKR?</b></li>
-			<ul type="disc">
+			<ul type="none">
 		    <li>4. OKRs examples for Q/A and to define a testing strategy</li>
 		    <li>HANDS_UP_4: ANDY GROVE LEGACY</li>
 		    <li>HANDS_UP_5: A little historical reminder</li>
@@ -57,7 +57,7 @@ Dedication :: To Prisca Jore
 			</ul>
 		<li><b>C_Last_advices_for_OKRs</b></li>
 		<li><b>D_PERSONAL_DIGRESSION_on_OKR</b></li>
-			<ul type="disc">
+			<ul type="none">
 		    <li>HANDS_UP_7: KPI, KR, CSF... Management components</li>
 			</ul>
 		</ul>
