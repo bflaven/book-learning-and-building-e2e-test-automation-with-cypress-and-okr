@@ -313,7 +313,7 @@ cy.get('.datatable').find('tr').should('have.length', 4)
 ```
 
 
-## Selectors
+## Import an object
 
 Reference: [Selector best practices](https://docs.cypress.io/guides/references/best-practices#How-It-Works)
 
@@ -349,7 +349,7 @@ Alias a call:
 cy.intercept('GET', '/config').as('configCall');
 ```
 
-## Selectors
+## CSS-Selectors
 
 Reference: [Selector best practices](https://docs.cypress.io/guides/references/best-practices#How-It-Works)
 
