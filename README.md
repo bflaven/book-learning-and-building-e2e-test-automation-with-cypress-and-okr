@@ -22,17 +22,17 @@ Dedication :: To Prisca Jore
 
 <ul type="square">
 <!-- intro -->
-<li>A_FOREWORD</li>
+<li><b>A_FOREWORD</b></li>
     Foreword
-<li>B_Why_WordPress?</li>
+<li><b>B_Why_WordPress?</b></li>
 	<ul type="circle">
 	    <li>Choosing WP</li>
 		<li>HANDS_UP_1: What is my testing environment (WP, plugins, theme, local address, languages...)?</li>
 	</ul>
-<li>C_Guidelines_and_Conventions_used_in_this_book?</li>
-<li>D_What_Can_You_Expect_to_Learn?</li>
-<li>E_Why_Cypress?</li>
-<li>F_Who_is_this_book_for?</li>
+<li><b>C_Guidelines_and_Conventions_used_in_this_book?</b></li>
+<li><b>D_What_Can_You_Expect_to_Learn?</b></li>
+<li><b>E_Why_Cypress?</b></li>
+<li><b>F_Who_is_this_book_for?</b></li>
 
 <!-- part_I -->
 <li><b>Part_I_Build_a_testing_strategy_with_OKR</b></li>
