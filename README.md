@@ -24,7 +24,7 @@ Dedication :: To Prisca Jore
 <li>A_FOREWORD</li>
     Foreword
 <li>B_Why_WordPress?</li>
-	<ul type="circle">
+	<ul type="square">
     <li>Choosing WP</li>
 	<li>HANDS_UP_1: What is my testing environment (WP, plugins, theme, local address, languages...)?</li>
 	</ul>
@@ -35,7 +35,7 @@ Dedication :: To Prisca Jore
 
 
 <li><b>Part_I_Build_a_testing_strategy_with_OKR</b></li>
-	<ul type="circle">
+	<ul type="square">
 	<li>A_Build_a_testing_strategy_with_OKR</li>
 	    Think strategic<br>
 	    1. The importance of Testing and Quality Assurance Strategy<br>
