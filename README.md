@@ -25,7 +25,7 @@ Dedication :: To Prisca Jore
 <li>A_FOREWORD</li>
     Foreword
 <li>B_Why_WordPress?</li>
-	<ul type="disc">
+	<ul type="circle">
     <li>Choosing WP</li>
 	<li>HANDS_UP_1: What is my testing environment (WP, plugins, theme, local address, languages...)?</li>
 	</ul>
