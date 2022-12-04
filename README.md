@@ -4,10 +4,20 @@
 
 **Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality**
 
-_My intent for this book was definitely to define from A to Z an applied strategy to quality management with proven concepts from a P.O point of view. So, we will go from OKRs strategy applied to Q/A to a concrete implementation with the help of Cypress._
+Remote work, which is now definitely the norm, requires to be more cautious than ever on an application's quality management. You absolutely must build security and trust within your team and outside especially if you put into production at a high release rate e.g 1 per week, 2 per day or even 10 per day.
+By the way, if you're making 10 releases a day, you're probably patching! So, there's something wrong with your quality management! Emmanuel Theysmeir said once: "There is always a lesson to be learned both from good and bad numbers! The real issue remains the interpretation."
 
+
+The book's purpose is very pragmatic, I believe this is not a programming book as I don't dwell on coding or programming explanations! Even though you will see and hope learn some code. I strongly advise you to get also proper information on the official documentation on Cypress website to deepen your knowledge or search on stackoverflow.com or GitHub.com
+
+
+My intent for this book was definitely to define from A to Z an applied strategy to quality management with proven concepts from a P.O point of view. So, we will go from OKRs strategy applied to Q/A to a concrete implementation with the help of Cypress.
 
 _In the table of content, you can see that there are 27 HANDS UPs. This gimmick act like an "Andon" in the Lean methodology. If you are facing a problem, then fix it do not wait._
+
+
+
+
 
 **General Infos**
 
