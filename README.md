@@ -51,9 +51,6 @@ Dedication :: To Prisca Jore
 		<li>C_Last_advices_for_OKRs</li>
 		<li>D_PERSONAL_DIGRESSION_on_OKR</li>
 		<li>HANDS_UP_7: KPI, KR, CSF... Management components</li>
-			
-	</ul>
-
 
 <!-- Part_II -->
 <li><b>Part_II_requirements_for_CYPRESS</b></li>
