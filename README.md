@@ -133,9 +133,9 @@ Dedication :: To Prisca Jore
 <!-- Part_V -->
 <li><b>Part_V_Cypress Virtualization with Docker</b></li>
 		<ul type="none">
-	    1. What is Docker?</li>
-	    HAND-HANDS_UP_27: to add the localhost inside the cypress</li>
-	    2. Using docker :: 2 cases</li>
+	    <li>1. What is Docker?</li>
+	    <li>HAND-HANDS_UP_27: to add the localhost inside the cypress</li>
+	    <li>2. Using docker :: 2 cases</li>
 		</ul>
 <!-- Part_VI -->
 <li><b>Part_VI_Conclusion</b></li>
