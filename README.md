@@ -21,19 +21,18 @@ Dedication :: To Prisca Jore
 ## 2. Table of Contents
 
 <ul type="square">
+<!-- intro -->
 <li>A_FOREWORD</li>
     Foreword
 <li>B_Why_WordPress?</li>
-	<ul type="square">
-    <li>Choosing WP</li>
-	<li>HANDS_UP_1: What is my testing environment (WP, plugins, theme, local address, languages...)?</li>
-	</ul>
+    Choosing WP
+	HANDS_UP_1: What is my testing environment (WP, plugins, theme, local address, languages...)?
 <li>C_Guidelines_and_Conventions_used_in_this_book?</li>
 <li>D_What_Can_You_Expect_to_Learn?</li>
 <li>E_Why_Cypress?</li>
 <li>F_Who_is_this_book_for?</li>
 
-
+<!-- part_I -->
 <li><b>Part_I_Build_a_testing_strategy_with_OKR</b></li>
 	<ul type="square">
 	<li><b>A_Build_a_testing_strategy_with_OKR</b></li>
@@ -53,8 +52,10 @@ Dedication :: To Prisca Jore
 	<li><b>D_PERSONAL_DIGRESSION_on_OKR</b></li>
 	    HANDS_UP_7: KPI, KR, CSF... Management components<br>
 	</ul>
+<!-- Part_II -->
 <li><b>Part_II_requirements_for_CYPRESS</b></li>
 
+<!-- Part_III -->
 <li><b>Part_III_Install Cypress 9 e2e_testing_cypress_v9 (install_1)</b></li>
 	    HANDS_UP_8: Where does the tests live?<br>
 	    HANDS_UP_9: What kind of names can I give to my test files?<br>
@@ -101,6 +102,7 @@ Dedication :: To Prisca Jore
 	    25. An extra test, multiple login for multiple role (020_wp_mutiple_login_role.spec.js)<br>
 	    26. Starting with TypeScript in Cypress<br>
 
+<!-- Part_IV -->
 <li><b>Part_IV_Installing and migrating to Cypress 10 (e2e_testing_cypress_v10)</b></li>
 	    1. Install the Cypress last version<br>
 	    2. Configure Cypress 10<br>
@@ -113,15 +115,20 @@ Dedication :: To Prisca Jore
 	    8. Change the specific config file<br>
 	    9. Add npm command in the file package.json<br>
 	    10. Few extra things:  define browser, define retries when test failed...<br>
-
+<!-- Part_V -->
 <li><b>Part_V_Cypress Virtualization with Docker</b></li> 
 	    1. What is Docker?<br>
 	    HAND-HANDS_UP_27: to add the localhost inside the cypress<br>
 	    2. Using docker :: 2 cases<br>
+<!-- Part_VI -->
 <li><b>Part_VI_Conclusion</b></li>
+<!-- Part_VII -->
 <li><b>Part_VII_Appendix: Appendix A. Installing new packages to extend Cypress capabilities</b></li>
+<!-- Part_VIII -->
 <li><b>Part_VIII_Resources</b></li>
+<!-- Part_IX -->
 <li><b>Part_IX_Lexicon</b></li>
+<!-- Part_X -->
 <li><b>Part_X_Acknowledgments</b></li>
 </ul>
 
