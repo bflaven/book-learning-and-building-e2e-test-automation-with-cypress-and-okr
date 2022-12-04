@@ -38,7 +38,7 @@ Dedication :: To Prisca Jore
 <li><b>Part_I_Build_a_testing_strategy_with_OKR</b></li>
 	<ul type="square">
 		<li><b>A_Build_a_testing_strategy_with_OKR</b></li>
-			<ul type="none">
+			<ul type="circle">
 			    <li>Think strategic</li>
 			    <li>1. The importance of Testing and Quality Assurance Strategy</li>
 			    <li>2. A quick definition of OKRs</li>
