@@ -151,7 +151,12 @@ Dedication :: To Prisca Jore
 
 
 
-**Directory tree for this repository**
+## 3. Directory tree for this repository
+
+
+*This book comes with a bunch of code that correspond to chapter or specific editorial content such as HAND_UP extracted from the book "Learning and Building E2E test automation with Cypress & OKR".*
+
+
 ```bash
 001_e2e_testing_cypress_v9
 002_e2e_testing_cypress_v10
@@ -166,7 +171,7 @@ Dedication :: To Prisca Jore
 ```
 
 
-## 3. Git reminder
+## 4. Git reminder
 
 **In 2022, I always forget how to push on GitHub**
 
