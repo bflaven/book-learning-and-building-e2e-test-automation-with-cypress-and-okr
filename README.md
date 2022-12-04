@@ -4,10 +4,12 @@
 
 **Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality**
 
+_My intent for this book was definitely to define from A to Z an applied strategy to quality management with proven concepts from a P.O point of view. So, we will go from OKRs strategy applied to Q/A to a concrete implementation with the help of Cypress._
 
-__General Infos__
 
-```
+**General Infos**
+
+```ruby
 
 Title :: Learning and Building E2E test automation with Cypress & OKR
 Description :: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality
