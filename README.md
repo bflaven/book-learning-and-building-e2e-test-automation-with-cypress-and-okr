@@ -7,6 +7,8 @@
 _My intent for this book was definitely to define from A to Z an applied strategy to quality management with proven concepts from a P.O point of view. So, we will go from OKRs strategy applied to Q/A to a concrete implementation with the help of Cypress._
 
 
+_In the table of content, you can see that there are 27 HANDS UPs. This gimmick act like an "Andon" in the Lean methodology. If you are facing a problem, then fix it do not wait._
+
 **General Infos**
 
 ```ruby
