@@ -35,23 +35,24 @@ Dedication :: To Prisca Jore
 
 
 <li>Part_I_Build_a_testing_strategy_with_OKR</li>
-	A_Build_a_testing_strategy_with_OKR
-	    Think strategic
-	    1. The importance of Testing and Quality Assurance Strategy
-	    2. A quick definition of OKRs
-	    3. OKRs Matrix
-	    3.1.  OKRs Matrix: [objective]
-	    HANDS_UP_2: What is SMART?
-	    3.2. OKRs Matrix: [these key results]
-	B_WHAT_ELSE_2_KNOW_on_OKR?
-	    4. OKRs examples for Q/A and to define a testing strategy
-	    HANDS_UP_4: ANDY GROVE LEGACY
-	    HANDS_UP_5: A little historical reminder
-	    HANDS_UP_6: Committed vs. Aspirational OKRs
-	C_Last_advices_for_OKRs
-	D_PERSONAL_DIGRESSION_on_OKR
-	    HANDS_UP_7: KPI, KR, CSF... Management components
-
+	<ul type="circle">
+	<li>A_Build_a_testing_strategy_with_OKR</li>
+	    Think strategic<br>
+	    1. The importance of Testing and Quality Assurance Strategy<br>
+	    2. A quick definition of OKRs<br>
+	    3. OKRs Matrix<br>
+	    	3.1.  OKRs Matrix: [objective]<br>
+	    	HANDS_UP_2: What is SMART?<br>
+	    	3.2. OKRs Matrix: [these key results]<br>
+	<li>B_WHAT_ELSE_2_KNOW_on_OKR?</li>
+	    4. OKRs examples for Q/A and to define a testing strategy<br>
+	    HANDS_UP_4: ANDY GROVE LEGACY<br>
+	    HANDS_UP_5: A little historical reminder<br>
+	    HANDS_UP_6: Committed vs. Aspirational OKRs<br>
+	<li>C_Last_advices_for_OKRs</li>
+	<li>D_PERSONAL_DIGRESSION_on_OKR</li>
+	    HANDS_UP_7: KPI, KR, CSF... Management components<br>
+	</ul>
 <li>Part_II_requirements_for_CYPRESS</li>
 
 <li>Part_III_Install Cypress 9 e2e_testing_cypress_v9 (install_1)</li>
