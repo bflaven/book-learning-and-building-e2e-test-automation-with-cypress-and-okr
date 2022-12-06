@@ -224,8 +224,15 @@ git commit -am "add repo and add readme"
 git commit -am "add files and update readme"
 git commit -am "add nft file examples in readme"
 
-# hint: push to Github if your branch on Github is master or main if it main
+# hint: push to Github if your branch on Github is main
 git push origin main
+
+# hint: push to Github if your branch on Github is master
+git push origin master
+
+# you can change GitHub in project's settings the name of the branch between master or main
+
+
 
 ```
 
