@@ -16,8 +16,9 @@ My intent for this book was definitely to define from A to Z an applied strategy
 _In the table of content, you can see that there are 27 HANDS UPs. This gimmick act like an "Andon" in the Lean methodology. If you are facing a problem, then fix it do not wait._
 
 
+**The book is available for sale on Amazon: [https://www.amazon.com/dp/B0BP216HCW/](https://www.amazon.com/dp/B0864VS2Y6/)**
 
-
+[![Learning and Building E2E test automation with Cypress & OKR](cover_book-learning-and-building-e2e-test-automation-with-cypress-and-okr-website_400x640.png)](https://www.amazon.com/dp/B0BP216HCW/)
 
 **General Infos**
 
