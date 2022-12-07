@@ -18,6 +18,37 @@ This flow will repeat over and over in your tests. One or more assertions should
 - Alias network calls for waits, e.g. `cy.wait('@loginCall')`
 
 
+- Install with npm:
+```txt
+# for upload
+npm install --save cypress-file-upload
+
+# for reports mochawesome and allure
+npm install --save-dev mochawesome-merge
+npm install --save-dev mochawesome
+npm install --save-dev mochawesome-report-generator 
+npm install --save-dev mocha cypress-multi-reporters 
+npm install --save-dev mocha-allure-reporter
+
+# other packages
+npm install --save-dev mocha
+npm install --save-dev cypress-xpath
+npm install –-save-dev lodash 
+npm install –-save-dev path 
+npm install –-save-dev debug
+npm install –-save-dev cypress-grep
+npm install --save-dev typescript
+npm install --save-dev faker
+npm install --save-dev cypress-real-events
+
+# for mysql
+npm install --save-dev mysql
+
+# install cucumber to use .fatire in gherkin
+npm install --save-dev cypress-cucumber-preprocessor
+```
+
+
 
 ## Code reminders from the book
 
