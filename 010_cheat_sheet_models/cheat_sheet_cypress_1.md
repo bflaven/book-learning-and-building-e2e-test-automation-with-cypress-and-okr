@@ -18,6 +18,8 @@ This flow will repeat over and over in your tests. One or more assertions should
 - Alias network calls for waits, e.g. `cy.wait('@loginCall')`
 
 
+## How-to install packages with npm
+
 - Install with npm:
 ```txt
 # for upload
