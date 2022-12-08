@@ -20,6 +20,7 @@ _In the table of content, you can see that there are 27 HANDS UPs. This gimmick 
 
 [![Learning and Building E2E test automation with Cypress & OKR](cover_book-learning-and-building-e2e-test-automation-with-cypress-and-okr-website_400x640.png)](https://www.amazon.com/dp/B0BP216HCW/)
 
+*OKR stands for Objectives Key Results*
 ## 2. Table of Contents
 
 <ul type="square">
