@@ -22,7 +22,7 @@ _In the table of content, you can see that there are 27 HANDS UPs. This gimmick 
 
 **General Infos**
 
-```ruby
+```bash
 
 Title :: Learning and Building E2E test automation with Cypress & OKR
 Description :: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality
@@ -31,9 +31,98 @@ Dedication :: To Prisca Jore
 
 ```
 
+## 2. Requirements
+
+I am on a macOS , so  am using the macOS Terminal. Even though, all the installs required are described in the book. I have extracted it for the understanding of the coming Youtube videos,  all the command lines to reproduce exactly my development environment.
 
 
-## 2. Table of Contents
+```bash
+# 1. Install homebrew and xcode
+
+# In the macOS Terminal 
+
+# installing Xcode's Command Line Tools
+xcode-select --install
+# installing and Setting Up Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/
+install/master/install)"
+
+
+# In the macOS Terminal 
+# 
+# 2. Install Node.js
+brew doctor
+# install node with homebrew
+brew install nodejs
+# check the install node version + NPM (Node Package Manager) version
+node -v
+npm -v
+node -v
+# should output v18.0.0 for instance depending of your version
+npx -v
+77 on 310 
+Learning and Building E2E test automation with Cypress & OKR
+# 8.6.0
+# should output 8.6.0 for instance depending of your version
+# eventually make some updates
+brew update
+brew upgrade nodejs
+
+
+# 3. Install Cypress
+
+# go to the main directory
+cd /Users/brunoflaven/Documents/01_work/cypress_book/
+
+# create your testing directory
+mkdir e2e_testing_cypress_v9
+
+# go to the testing directory
+cd e2e_testing_cypress_v9
+cd /Users/brunoflaven/Documents/01_work/cypress_book/
+e2e_testing_cypress_v9/
+# install generate the package.json
+# generated a package.json and node_modules directory
+npm init 
+
+# fill the package.json
+# description: This attempt made for E2E-CYPRESS-WP, runnings cypress tests on WP  for a testing for PO. Better generated a package.json and node_modules directory
+# keywords: cypress, attempt, PO, E2E-CYPRESS-WP, e2e-cypress-wp
+# author: bflaven
+# git: https://github.com/bflaven/
+
+# install old version 9.7.0
+npm install --save-dev cypress@9.7.0
+
+
+# launch Cypress once installed
+npx cypress open
+
+
+
+
+```
+**WordPress, LAMP & Guinea Pig**
+For the other tools used, I leverage on WordPress as I chose it as a CMS to act as a guinea pig in the Cypress testing experiment.
+The WordPress  is installed locally. So, It requires a LAMP stack, I invite you also to use some tools like XAMPP (LAMP environment for WordPress) and also a text editor to enable you to edit code. You can also used MAMP.
+
+
+- MAMP - [https://www.mamp.info/](https://www.mamp.info/)
+- XAMPP - [https://www.apachefriends.org/](https://www.apachefriends.org/) 
+
+**Choice for the text editor**
+I could have made an entire chapter pros/cons for each text editor, but I leave it to the web! There are thousands of not-so-interesting 
+comparisons. In my case, I am both using Visual Studio Code and 
+Sublime Text! But feel free to choose whatever you want. As the latin 
+phrase "de gustibus non est disputandum", there is no disputing about 
+taste and more over for a text editor. So let's move on!
+
+- Sublime Text - [https://www.sublimetext.com/](https://www.sublimetext.com/)
+- Visual Studio Code  - [https://code.visualstudio.com/](https://code.visualstudio.com/) 
+
+
+
+## 3. Table of Contents
 
 <ul type="square">
 <!-- intro -->
@@ -162,7 +251,7 @@ Dedication :: To Prisca Jore
 
 
 
-## 3. Directory tree for this repository
+## 5. Directory tree for this repository
 
 
 *This book comes with a bunch of code that correspond to chapter or specific editorial content such as HAND_UP extracted from the book "Learning and Building E2E test automation with Cypress & OKR".*
@@ -182,7 +271,7 @@ Dedication :: To Prisca Jore
 ```
 
 
-## 4. Git reminder
+## 6. Git reminder
 
 **In 2022, I always forget how to push on GitHub**
 
