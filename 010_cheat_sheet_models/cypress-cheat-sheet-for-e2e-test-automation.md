@@ -23,7 +23,9 @@ Learn more on Cypress, OKR for E2E test automation at https://www.amazon.com/dp/
 ## How-to install packages with npm
 
 - Install with npm:
-```txt
+
+
+```bash
 # for upload
 npm install --save cypress-file-upload
 
