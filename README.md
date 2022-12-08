@@ -37,9 +37,7 @@ I am on a macOS , so  am using the macOS Terminal. Even though, all the installs
 
 
 ```bash
-# 1. Install homebrew and xcode
-
-# In the macOS Terminal 
+# 1. INSTALL HOMEBREW AND XCODE
 
 # installing Xcode's Command Line Tools
 xcode-select --install
@@ -48,28 +46,29 @@ xcode-select --install
 install/master/install)"
 
 
-# In the macOS Terminal 
-# 
-# 2. Install Node.js
+# 2. INSTALL NODE.JS 
+
 brew doctor
+
 # install node with homebrew
 brew install nodejs
+
 # check the install node version + NPM (Node Package Manager) version
 node -v
 npm -v
-node -v
+
 # should output v18.0.0 for instance depending of your version
 npx -v
-77 on 310 
-Learning and Building E2E test automation with Cypress & OKR
 # 8.6.0
 # should output 8.6.0 for instance depending of your version
+
+
 # eventually make some updates
 brew update
 brew upgrade nodejs
 
 
-# 3. Install Cypress
+# 3. INSTALL CYPRESS
 
 # go to the main directory
 cd /Users/brunoflaven/Documents/01_work/cypress_book/
@@ -79,8 +78,9 @@ mkdir e2e_testing_cypress_v9
 
 # go to the testing directory
 cd e2e_testing_cypress_v9
-cd /Users/brunoflaven/Documents/01_work/cypress_book/
-e2e_testing_cypress_v9/
+cd /Users/brunoflaven/Documents/01_work/cypress_book/e2e_testing_cypress_v9/
+
+
 # install generate the package.json
 # generated a package.json and node_modules directory
 npm init 
@@ -98,10 +98,17 @@ npm install --save-dev cypress@9.7.0
 # launch Cypress once installed
 npx cypress open
 
-
-
-
 ```
+
+**Official documentation for Cypress**
+
+For this time, the official documentation is great, and it is a particularly useful resource up to date with videos, notable examples etc...
+
+- Cypress Guides  - [https://docs.cypress.io/guides/overview/why-cypress](https://docs.cypress.io/guides/overview/why-cypress)
+- Cypress Api Documentation - [https://docs.cypress.io/api/table-of-contents](https://docs.cypress.io/api/table-of-contents) 
+
+
+
 **WordPress, LAMP & Guinea Pig**
 For the other tools used, I leverage on WordPress as I chose it as a CMS to act as a guinea pig in the Cypress testing experiment.
 The WordPress  is installed locally. So, It requires a LAMP stack, I invite you also to use some tools like XAMPP (LAMP environment for WordPress) and also a text editor to enable you to edit code. You can also used MAMP.
