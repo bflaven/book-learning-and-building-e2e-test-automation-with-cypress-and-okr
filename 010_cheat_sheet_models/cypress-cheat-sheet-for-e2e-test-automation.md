@@ -67,30 +67,30 @@ cy.get('#select2-search_tags_id-results > li > ul > li', {timeout: 10000}).click
 
 
 // article_authorTags
-    cy.get('#page-content > form > div > div:nth-child(1) > div:nth-child(2) > div.panel-body.panel-tags > div:nth-child(1) > span').click()
-    cy.get('#select2-article_authorTags-results > li > ul > li:nth-child(7)').click()
+cy.get('#page-content > form > div > div:nth-child(1) > div:nth-child(2) > div.panel-body.panel-tags > div:nth-child(1) > span').click()
+cy.get('#select2-article_authorTags-results > li > ul > li:nth-child(7)').click()
 
-    // article_superTags
-    cy.get('#page-content > form > div > div:nth-child(1) > div:nth-child(2) > div.panel-body.panel-tags > div.form-group.supertag > span > span.selection > span').click()
-    cy.get('#select2-article_superTags-results > li > ul > li:nth-child(5)').click()
-
-
-    // article_thematicTags
-    cy.get('#page-content > form > div > div:nth-child(1) > div:nth-child(2) > div.panel-body.panel-tags > div:nth-child(3) > span').click()
-    cy.get('#select2-article_thematicTags-results > li > ul > li:nth-child(5)').click()
+// article_superTags
+cy.get('#page-content > form > div > div:nth-child(1) > div:nth-child(2) > div.panel-body.panel-tags > div.form-group.supertag > span > span.selection > span').click()
+cy.get('#select2-article_superTags-results > li > ul > li:nth-child(5)').click()
 
 
-    // article_languageLevelTags
-    cy.get('#page-content > form > div > div:nth-child(1) > div:nth-child(2) > div.panel-body.panel-tags > div:nth-child(4) > span > span.selection > span', {timeout: 10000}).click({force: true})
-    cy.get('#select2-article_languageLevelTags-results > li > ul > li:nth-child(2)').click({force: true})
+// article_thematicTags
+cy.get('#page-content > form > div > div:nth-child(1) > div:nth-child(2) > div.panel-body.panel-tags > div:nth-child(3) > span').click()
+cy.get('#select2-article_thematicTags-results > li > ul > li:nth-child(5)').click()
+
+
+// article_languageLevelTags
+cy.get('#page-content > form > div > div:nth-child(1) > div:nth-child(2) > div.panel-body.panel-tags > div:nth-child(4) > span > span.selection > span', {timeout: 10000}).click({force: true})
+cy.get('#select2-article_languageLevelTags-results > li > ul > li:nth-child(2)').click({force: true})
 
 ```
 
 - Test the visibility if there is an overlay on the main form until that save action is done fo instance:
 ```js
-            // check visibility
-            cy.get('body > div.loader.loader-waves.center-screen > div > div.sk-rect.sk-rect2').should("not.be.visible", { timeout: 20000 })
-            cy.get('#transcriptionDictionary > div > div.panel-heading > h3', {timeout: 20000}).should("be.visible")
+// check visibility
+cy.get('body > div.loader.loader-waves.center-screen > div > div.sk-rect.sk-rect2').should("not.be.visible", { timeout: 20000 })
+cy.get('#transcriptionDictionary > div > div.panel-heading > h3', {timeout: 20000}).should("be.visible")
 
 ```
 
