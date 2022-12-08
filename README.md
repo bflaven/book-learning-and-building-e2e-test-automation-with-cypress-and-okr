@@ -101,7 +101,6 @@ npx cypress open
 ```
 
 **Official documentation for Cypress**
-
 For this time, the official documentation is great, and it is a particularly useful resource up to date with videos, notable examples etc...
 
 - Cypress Guides  - [https://docs.cypress.io/guides/overview/why-cypress](https://docs.cypress.io/guides/overview/why-cypress)
@@ -110,7 +109,6 @@ For this time, the official documentation is great, and it is a particularly use
 
 
 **WordPress, LAMP & Guinea Pig**
-
 For the other tools used, I leverage on WordPress as I chose it as a CMS to act as a guinea pig in the Cypress testing experiment.
 The WordPress  is installed locally. So, It requires a LAMP stack, I invite you also to use some tools like XAMPP (LAMP environment for WordPress) and also a text editor to enable you to edit code. You can also used MAMP.
 
@@ -119,7 +117,6 @@ The WordPress  is installed locally. So, It requires a LAMP stack, I invite you 
 - XAMPP - [https://www.apachefriends.org/](https://www.apachefriends.org/) 
 
 **Choice for the text editor**
-
 I could have made an entire chapter pros/cons for each text editor, but I leave it to the web! There are thousands of not-so-interesting 
 comparisons. In my case, I am both using Visual Studio Code and 
 Sublime Text! But feel free to choose whatever you want. As the latin 
