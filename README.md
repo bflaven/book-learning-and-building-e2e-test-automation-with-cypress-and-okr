@@ -48,6 +48,7 @@ install/master/install)"
 
 # 2. INSTALL NODE.JS 
 
+# check homebrew (required apparently)
 brew doctor
 
 # install node with homebrew
