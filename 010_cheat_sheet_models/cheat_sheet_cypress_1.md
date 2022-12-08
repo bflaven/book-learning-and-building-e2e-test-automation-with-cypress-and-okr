@@ -1,9 +1,11 @@
-# cheat_sheet_cypress_1
+# Cypress for E2E test automation
 
-1. _User interaction_ (click, type in a field, etc)
-2. _Assertions_ (elements exist, url has changed, text matches some pattern)
+This command lines Cheat Sheet is extracted from a book named "Learning and Building E2E test automation with Cypress & OKR - Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality"
 
-This flow will repeat over and over in your tests. One or more assertions should follow each interaction.
+Learn more on Cypress, OKR for E2E test automation at https://www.amazon.com/dp/B0BP216HCW/
+
+*These are code reminders that I have been noted down along the way within the writing process for this book*
+
 
 ## Things you should avoid
 
