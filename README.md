@@ -241,7 +241,7 @@ For the other tools used, I leverage on WordPress as I chose it as a CMS to act 
 The WordPress  is installed locally. So, It requires a LAMP stack, I invite you also to use some tools like XAMPP (LAMP environment for WordPress) and also a text editor to enable you to edit code. You can also used MAMP.
 
 
-- MAMP - [https://www.mamp.info/](https://www.mamp.info/)
+- MAMP - [https://www.mamp.info/en/mac/](https://www.mamp.info/en/mac/)
 - XAMPP - [https://www.apachefriends.org/](https://www.apachefriends.org/) 
 
 ### 3.4 Choice for the text editor
