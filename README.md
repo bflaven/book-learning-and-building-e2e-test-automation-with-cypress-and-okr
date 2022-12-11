@@ -245,6 +245,60 @@ For this time, the official documentation is great, and it is a particularly use
 For the other tools used, I leverage on WordPress as I chose it as a CMS to act as a guinea pig in the Cypress testing experiment.
 The WordPress  is installed locally. So, It requires a LAMP stack, I invite you also to use some tools like XAMPP (LAMP environment for WordPress) and also a text editor to enable you to edit code. You can also used MAMP.
 
+```bash
+# 1. INSTALL WORDPRESS LOCALLY
+
+# It suppose that you have installed XAMPP or MAMP where the WordPress will leave (Frontoffice, Backoffice, API)
+
+# The WordPress will be and will live in this directory
+# /Applications/XAMPP/xamppfiles/htdocs/
+
+# Go to the directory
+cd /Applications/XAMPP/xamppfiles/htdocs/
+
+# create your WordPress directory
+mkdir wordpress
+
+# go to the testing directory
+cd wordpress
+
+# Before launching the famous WordPress 5-minutes install, you need to create a database. With XAMPP or MAMP, you have access to a phpmyadmin to help create the DB
+
+# You can find a lot of tutorial on YouTube of example this one
+# Video #1 Building a testing environment with MAMP and WordPress with a Custom URL - https://www.youtube.com/watch?v=2yXS9mP3C_U
+
+# 2. WORDPRESS WITH A CUSTOM URL
+
+# log as root admin on your mac
+sudo -s
+
+# edit your local hosts file with Vim
+vi /etc/hosts
+
+
+# hit the letter "i" to gop to the insert mode in Vim and insert the line below with the comment #
+
+
+# add for the testing session with cypress to have a local instance of WP with a specific domain name
+127.0.0.1 cypress.mydomain.priv
+
+
+# hit CTRL + C to escape from the insert mode
+# type :wq to write and quit Vim
+:wq
+
+# exit from the root mode
+exit
+
+# check if it works with a ping cypress.mydomain.priv. Do not forget to start before your local XAMPP
+ping cypress.mydomain.priv
+
+
+# It should work!
+# You can find a lot of tutorial on YouTube of example this one
+# Video #1 Building a testing environment with MAMP and WordPress with a Custom URL - https://www.youtube.com/watch?v=2yXS9mP3C_U
+
+```
 
 
 - MAMP - [https://www.mamp.info/en/mac/](https://www.mamp.info/en/mac/)
