@@ -228,6 +228,11 @@ npx cypress open
 
 ```
 
+- Xcode - [https://developer.apple.com/support/xcode/](https://developer.apple.com/support/xcode/) 
+- Homebrew - [https://brew.sh/](https://brew.sh/)
+- Node - [https://nodejs.org/en/](https://nodejs.org/en/)
+
+
 ### 3.2 Official documentation for Cypress
 For this time, the official documentation is great, and it is a particularly useful resource up to date with videos, notable examples etc...
 
@@ -239,6 +244,7 @@ For this time, the official documentation is great, and it is a particularly use
 ### 3.3  WordPress, LAMP & Guinea Pig
 For the other tools used, I leverage on WordPress as I chose it as a CMS to act as a guinea pig in the Cypress testing experiment.
 The WordPress  is installed locally. So, It requires a LAMP stack, I invite you also to use some tools like XAMPP (LAMP environment for WordPress) and also a text editor to enable you to edit code. You can also used MAMP.
+
 
 
 - MAMP - [https://www.mamp.info/en/mac/](https://www.mamp.info/en/mac/)
