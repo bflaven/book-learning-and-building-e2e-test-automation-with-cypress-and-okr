@@ -341,8 +341,15 @@ taste and more over for a text editor. So let's move on!
 
 
 
-- [Video #1 Requirements Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](https://www.youtube.com/watch?v=KBEeiyw54zM)
-[![Video #1 Requirements Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](001_requirements_development_environment.png)](https://www.youtube.com/watch?v=KBEeiyw54zM)
+- [Video #1 Requirements - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](https://www.youtube.com/watch?v=KBEeiyw54zM)
+[![Video #1 Requirements - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](001_requirements_development_environment.png)](https://www.youtube.com/watch?v=KBEeiyw54zM)
+
+
+- [Video #2 E2E Testing Cypress 9 - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](https://www.youtube.com/watch?v=KBEeiyw54zM)
+[![Video #1 E2E Testing Cypress 9 - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](002_cypress_9_e2e_testing_cypress_v9.png)](https://www.youtube.com/watch?v=KBEeiyw54zM)
+
+- [Video #3 E2E Testing Cypress 10 or more - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](https://www.youtube.com/watch?v=KBEeiyw54zM)
+[![Video #3 E2E Testing Cypress 10 or more - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](003_e2e_testing_cypress_v10.png)](https://www.youtube.com/watch?v=KBEeiyw54zM)
 
 
 ## 6. Git reminder
