@@ -335,8 +335,17 @@ taste and more over for a text editor. So let's move on!
 010_cheat_sheet_models
 ```
 
+## 5. Videos
 
-## 5. Git reminder
+**All the videos of this Book are available on YouTube in this playlist: [https://www.youtube.com/playlist?list=PL999tA6UKRx_h2fT3LeUGK2xF7zVDHPw8](https://www.youtube.com/playlist?list=PL999tA6UKRx_h2fT3LeUGK2xF7zVDHPw8)**
+
+
+
+- [Video #1 Requirements Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](https://www.youtube.com/watch?v=KBEeiyw54zM)
+[![Video #1 Requirements Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](001_requirements_development_environment.png)](https://www.youtube.com/watch?v=KBEeiyw54zM)
+
+
+## 6. Git reminder
 
 **In 2022, I always forget how to push on GitHub**
 
