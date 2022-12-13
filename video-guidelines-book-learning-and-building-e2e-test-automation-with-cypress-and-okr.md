@@ -44,6 +44,7 @@ cd /Users/brunoflaven/Desktop/_e2e_testing_cypress_attempt/working_dir
 # http://cypress.mydomain.priv/wordpress/
 # http://cypress.mydomain.priv/wordpress/wp-admin/
 # admin:admin
+```
 
 ### 3. FOR CYPRESS@9.7.0 (001_e2e_testing_cypress_v9)
 
@@ -61,8 +62,6 @@ cd e2e_testing_cypress_v9
 npm install cypress --save-dev
 # Install a specific version
 npm install --save-dev cypress@9.7.0
-
-
 
 # Install generate the package.json
 # generated a package.json and node_modules directory
@@ -109,19 +108,13 @@ npx cypress run --env LANG="en_EN" --config video=false,screenshotOnRunFailure=f
 npx cypress open --env LANG="en_EN" --config-file "en_EN.conf.env.json" --config video=false,screenshotOnRunFailure=false
 
 
-# cypress 10
+# cypress 10 for english with en_EN.conf.env.config.js
+
 npx cypress open --env LANG="en_EN" --config-file "en_EN.conf.env.config.js" --config video=false,screenshotOnRunFailure=false
 
-npx cypress open --env LANG="es_ES" --config-file "es_ES.conf.env.json" --config video=false,screenshotOnRunFailure=false
-
-# cypress 10 for spanish
+# # cypress 10 for sapnish with es_ES.conf.env.config.js
 npx cypress open --env LANG="es_ES" --config-file "es_ES.conf.env.config.js" --config video=false,screenshotOnRunFailure=false
 
-
-# en_EN.conf.env.config.js
-
-# spanish
-npx cypress open --env LANG="es_ES" --config-file "es_ES.conf.env.json" --config video=false,screenshotOnRunFailure=false
 
 ```
 
@@ -129,15 +122,16 @@ npx cypress open --env LANG="es_ES" --config-file "es_ES.conf.env.json" --config
 
 ```bash
 # Go to the main directory
---- cd /Users/brunoflaven/Desktop/_e2e_testing_cypress_attempt
+cd /Users/brunoflaven/Desktop/_e2e_testing_cypress_attempt
 
 # Create your testing directory
 mkdir e2e_testing_cypress_v12
 
 # Go to the testing directory
 cd e2e_testing_cypress_v12
+
 # with the path complete
---- cd /Users/brunoflaven/Desktop/_e2e_testing_cypress_attempt/e2e_testing_cypress_v10/
+cd /Users/brunoflaven/Desktop/_e2e_testing_cypress_attempt/e2e_testing_cypress_v10/
 
 # Install generate the package.json
 # generated a package.json and node_modules directory
