@@ -1,30 +1,51 @@
+# video-guidelines-book-learning-and-building-e2e-test-automation-with-cypress-and-okr
 
-## INTRO
+**Here is the guidelines that I have using in the YouTube videos to present the code from this GitHub repository.**
+
+
+#### INTRO
 Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality
 
 The book's purpose is very pragmatic, this is not a programming book as I don't dwell on coding or programming explanations! Even though you will see, and hope learn some code. 
 
 I strongly advise you to get also proper information on the official documentation on Cypress website to deepen your knowledge or search on stackoverflow.com or GitHub.com
 
-## OBJECTIVE
-+ My intent for this book was to define from A to Z an applied strategy to quality management with proven concepts from a P.O point of view. So, we will go from OKRs strategy applied to Q/A to a concrete implementation with the help of Cypress.
+#### OBJECTIVE
 
-## NOTE
+**My intent for this book was to define from A to Z an applied strategy to quality management with proven concepts from a P.O point of view. So, we will go from OKRs strategy applied to Q/A to a concrete implementation with the help of Cypress.**
+
+#### NOTE
 In the table of content, you can see that there are 27 HANDS UPs. This gimmick act like an "Andon" in the Lean methodology. If you are facing a problem, then fix it do not wait.
 
 
-## BLOG
+#### RESOURCES
+- My personal BLOG
 https://flaven.fr/publications/
 
-## AMAZON
+- The book on AMAZON
 https://www.amazon.com/dp/B0BP216HCW/
 
-## GITHUB
+- The code on GITHUB
 https://github.com/bflaven/book-learning-and-building-e2e-test-automation-with-cypress-and-okr
 
 
+### 1. VIDEOS
 
-### 1. GIT
+**All the videos of this Book are available on YouTube in this playlist: [https://www.youtube.com/playlist?list=PL999tA6UKRx_h2fT3LeUGK2xF7zVDHPw8](https://www.youtube.com/playlist?list=PL999tA6UKRx_h2fT3LeUGK2xF7zVDHPw8)**
+
+- [Video #1 Requirements - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](https://www.youtube.com/watch?v=KBEeiyw54zM)
+[![Video #1 Requirements - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](001_requirements_development_environment.png)](https://www.youtube.com/watch?v=KBEeiyw54zM)
+
+
+- [Video #2 E2E Testing Cypress 9 - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](https://www.youtube.com/watch?v=7tRTcIA9zS8)
+[![Video #2 E2E Testing Cypress 10 or more - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](002_cypress_9_e2e_testing_cypress_v9.png)](https://www.youtube.com/watch?v=7tRTcIA9zS8)
+
+- [Video #3 E2E Testing Cypress 10 or more - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](https://www.youtube.com/watch?v=SjYEMgqbJkE)
+[![Video #3 E2E Testing Cypress 10 or more - Learning and Building E2E test automation with Cypress & OKR: Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with a PO mindset focus on Quality](003_e2e_testing_cypress_v10.png)](https://www.youtube.com/watch?v=SjYEMgqbJkE)
+
+
+
+### 2. GIT
 
 ```bash
 cd /Users/brunoflaven/Desktop/_e2e_testing_cypress_attempt/
@@ -33,7 +54,7 @@ cd /Users/brunoflaven/Desktop/_e2e_testing_cypress_attempt/
 git clone https://github.com/bflaven/book-learning-and-building-e2e-test-automation-with-cypress-and-okr.git
 ```
 
-### 2. COMMANDS
+### 3. COMMANDS
 
 ```bash
 # path
@@ -46,7 +67,7 @@ cd /Users/brunoflaven/Desktop/_e2e_testing_cypress_attempt/working_dir
 # admin:admin
 ```
 
-### 3. FOR CYPRESS@9.7.0 (001_e2e_testing_cypress_v9)
+### 4. FOR CYPRESS@9.7.0 (001_e2e_testing_cypress_v9)
 
 ```bash
 cd /Users/brunoflaven/Desktop/_e2e_testing_cypress_attempt/working_dir
@@ -82,7 +103,7 @@ npx cypress open
 ```
 
 
-### OTHER COMMAND
+### 5. OTHER COMMAND
 
 ```bash
 
@@ -118,7 +139,7 @@ npx cypress open --env LANG="es_ES" --config-file "es_ES.conf.env.config.js" --c
 
 ```
 
-### 4. FOR CYPRESS ~10 LAST VERSION (002_e2e_testing_cypress_v10)
+### 6. FOR CYPRESS ~10 LAST VERSION (002_e2e_testing_cypress_v10)
 
 ```bash
 # Go to the main directory
