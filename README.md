@@ -1,5 +1,6 @@
 # Learning and Building E2E test automation with Cypress & OKR
 
+
 ## 1. Book abstract
 
 **Define, Code & Apply an E2E strategy with Cypress & Objectives Key Results with PO mindset focus on Quality**
